@@ -1,0 +1,126 @@
+
+/* Tekst */
+
+h1{
+    color: blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 150%;
+}
+
+p{
+    color: rgb(195, 0, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    
+}
+
+li{
+    color: rgb(98, 43, 226);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 150%;
+}
+
+h2{
+    color:rgb(206, 0, 154);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 200%;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    font-size: 100%;
+}
+
+/* Tagi */
+
+#janusz{
+  position:relative;
+  left: 50px;
+}
+
+#plastry{
+  position: absolute;
+  left: 500px;
+  top: 1500px;
+}
+
+#start-strony{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 250%;
+    color:white;
+
+}
+
+#stannadzien{
+  font-size: 75%;
+  color:black
+}
+
+#klienci{
+  font-size: 500%;
+  color: white;
+}
+
+#kim-jestesmyid{
+    width: 1100;
+    height: 180;
+    overflow: auto;
+    border: 5px ridge purple;
+}
+
+#wszystko{
+  border: 10px groove white;
+  margin: auto;
+  padding: 15px;
+}
+
+#gerni-pic{
+  padding: 15px;
+}
+
+#ceny-igiel-div{
+  size: 200%;
+}
+
+
+/* Klasy */
+
+.discord-tagi{
+  color:white;
+}
+
+.tabela{
+  color: rgb(255, 81, 183);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 150%;
+}
+
+.start-strony{
+  margin-left: auto;
+}
+
+/* Link */
+
+a:link {
+    color: white;
+    background-color: blueviolet;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+    background-color: blueviolet;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: black;
+    background-color: white;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: white;
+    background-color: blueviolet;
+    text-decoration: underline;
+  }
