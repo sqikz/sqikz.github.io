@@ -39,11 +39,6 @@ body{
 
 /* Tagi */
 
-#plastry{
-  position: absolute;
-  left: 500px;
-  top: 1500px;
-}
 
 #start-strony{
     font-family: 'Courier New', Courier, monospace;
@@ -78,6 +73,15 @@ body{
   position: absolute;
 }
 
+#wroc-igl{
+  position: relative;
+  right: 105px;
+  bottom: 50px;
+}
+#wroc-igl-top{
+  position: absolute;
+}
+
 #gerni-pic{
   padding: 15px;
 }
@@ -86,32 +90,29 @@ body{
 
 }
 
-#ceny-igiel-div{
-  size: 200%;
-}
-
-#prenumerata{
-  position: relative;
-  top: 20px;
-}
 
 #propre_button{
   bottom: 80px
 }
-
-#pakiet-klasyczny-h2{
-  color: lightgreen
-}
-
-#pakiet-lite-h2{
-  color: lightskyblue;
-}
-
-#pakiet-pro-h2{
-  color: lightcoral;
+#proigl-button{
+  bottom: 80px
 }
 
 /* Klasy */
+
+.klasyczna-h2{
+  color: lightgreen
+}
+.lite-h2{
+  color: lightskyblue;
+}
+.pro-h2{
+  color: lightcoral;
+}
+
+.igly-img{
+  width: 800;
+}
 
 .pakiety{
   position: relative;
@@ -135,8 +136,29 @@ body{
   bottom: 845px;
   left: 600px;
 }
+.igl-button{
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.6s;
+  cursor: pointer;
+  background-color: transparent;
+  color: #8a00ff;
+  border: 3px solid #ce009a;
+  position: relative;
+  left: 270px;
+  bottom: 845px;
+}
 
 .pre_button:hover {
+  background-color: #ce009a;
+  color: white;
+}
+.igl-button:hover{
   background-color: #ce009a;
   color: white;
 }
