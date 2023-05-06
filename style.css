@@ -26,17 +26,18 @@ h2{
     font-size: 200%;
 }
 
+h3{
+  color:rgb(206, 0, 154);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 200%;
+}
+
 body{
     background-color: rgb(0, 0, 0);
     font-size: 100%;
 }
 
 /* Tagi */
-
-#janusz{
-  position:relative;
-  left: 50px;
-}
 
 #plastry{
   position: absolute;
@@ -68,26 +69,88 @@ body{
     border: 5px ridge purple;
 }
 
-#wszystko{
-  border: 10px groove white;
-  margin: auto;
-  padding: 15px;
+#wroc-pre{
+  position: relative;
+  right: 105px;
+  bottom: 50px;
+}
+#wroc-pre-top{
+  position: absolute;
 }
 
 #gerni-pic{
   padding: 15px;
+}
+#gerni-pic-pre{
+  padding: 15px;
+
 }
 
 #ceny-igiel-div{
   size: 200%;
 }
 
+#prenumerata{
+  position: relative;
+  top: 20px;
+}
+
+#propre_button{
+  bottom: 80px
+}
+
+#pakiet-klasyczny-h2{
+  color: lightgreen
+}
+
+#pakiet-lite-h2{
+  color: lightskyblue;
+}
+
+#pakiet-pro-h2{
+  color: lightcoral;
+}
 
 /* Klasy */
+
+.pakiety{
+  position: relative;
+  right: 110px;
+}
+
+.pre_button {
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.6s;
+  cursor: pointer;
+  background-color: transparent;
+  color: #8a00ff;
+  border: 3px solid #ce009a;
+  position: relative;
+  bottom: 845px;
+  left: 600px;
+}
+
+.pre_button:hover {
+  background-color: #ce009a;
+  color: white;
+}
 
 .discord-tagi{
   color:white;
 }
+
+.wszystko{
+  border: 10px groove white;
+  margin: auto;
+  padding: 15px;
+}
+
 
 .tabela{
   color: rgb(255, 81, 183);
